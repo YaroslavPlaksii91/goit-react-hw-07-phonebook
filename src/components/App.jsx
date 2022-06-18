@@ -1,6 +1,7 @@
 import ContactForm from './ContactForm';
 import ContactList from './ContactList';
 import Filter from './Filter';
+import { Toaster } from 'react-hot-toast';
 
 const App = () => (
   <div>
@@ -10,6 +11,7 @@ const App = () => (
     <h2>Contacts</h2>
     <Filter />
     <ContactList />
+    <Toaster />
   </div>
 );
 
